@@ -26,7 +26,6 @@ echo Macrium Reflect işlemi başlatılıyor...
 if errorlevel 1 (
     echo Geri yükleme işlemi sırasında hata oluştu.
     net use Z: /delete
-shutdown /r /t 0
 )
 
 :: NAS bağlantısını kaldır
